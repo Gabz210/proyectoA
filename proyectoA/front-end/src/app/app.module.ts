@@ -12,7 +12,9 @@ import { EducacionComponent } from './components/educacion/educacion.component';
 import  {  NgCircleProgressModule  }  from  'ng-circle-progress';
 import { HySComponent } from './components/hy-s/hy-s.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
-import { FooterComponent } from './components/footer/footer.component' ;
+import { FooterComponent } from './components/footer/footer.component';
+import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './components/home/home.component' ;
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { FooterComponent } from './components/footer/footer.component' ;
     EducacionComponent,
     HySComponent,
     ProyectosComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
